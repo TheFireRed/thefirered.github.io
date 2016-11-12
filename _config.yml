@@ -1,0 +1,39 @@
+# Site settings
+title: TheFireRed
+description: 'Perfil central de TheFireRed'
+url: 'http://thefirered.ovh'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'TheFireRed'
+  email: thefirered@gmail.com.com
+  twitter_username: TheFireRed
+# facebook_username:
+  github_username:  thefirered
+# linkedin_username:  joshgerdes
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
