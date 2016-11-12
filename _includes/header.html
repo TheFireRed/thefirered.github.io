@@ -37,22 +37,22 @@
               </li>
             {% endif %}
 
-            {% if site.author.facebook_username %}
-              <!-- Facebook -->
+            {% if site.author.steam_username %}
+              <!-- Steam -->
               <li class="navigation__item">
-                <a href="http://fb.me/{{ site.author.facebook_username }}" title="{{ site.author.facebook_username }} on Facebook" target="_blank">
-                  <i class="icon icon-social-facebook"></i>
-                  <span class="label">Facebook</span>
+                <a href="http://steamcommunity.com/id/{{ site.author.steam_username }}" title="{{ site.author.steam_username }} en Steam" target="_blank">
+                  <i class="icon icon-social-steam"></i>
+                  <span class="label">Steam</span>
                 </a>
               </li>
             {% endif %}
 
-            {% if site.author.linkedin_username %}
-              <!-- LinkedIn -->
+            {% if site.author.youtube_username %}
+              <!-- YouTube -->
               <li class="navigation__item">
-                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
-                  <i class="icon icon-social-linkedin"></i>
-                  <span class="label">LinkedIn</span>
+                <a href="http://www.youtube.com/c/{{ site.author.youtube_username }}" title="{{ site.author.linkedin_username }} en YouTube" target="_blank">
+                  <i class="icon icon-social-youtube"></i>
+                  <span class="label">YouTube</span>
                 </a>
               </li>
             {% endif %}
