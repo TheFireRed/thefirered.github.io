@@ -1,41 +1,51 @@
-# Site settings
-title: TheFireRed
-description: 'Perfil central de TheFireRed'
-url: 'http://thefirered.ovh'
-baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+name:               "TheFireRed"
+description:        ""
 
-author:
-  name: 'TheFireRed'
-  email: thefirered@gmail.com.com
-  twitter_username: TheFireRed
-  youtube_username: TheFireRed
-  steam_username: thefirered
-# facebook_username:
-  github_username:  thefirered
-# linkedin_username:  joshgerdes
+url:                ""
+author:             "TheFireRed"
+email:              "jhondoe@abc.com"
+gravatar_hash:      ""
+twitter:            ""
+email:              ""
+github:             ""
+pinterest:          ""
+linkedin:           ""
+facebook:           ""
+
+disqus_shortname:   ""
+
+background:         ""
+
+paginate:           5
+paginate_path:      "/page:num/"
+
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+markdown:           kramdown
+
+nav:
+  - name:           "About"
+    href:           "/about"
+  - name:           "Download"
+    href:           "/releases"
+
+sass:
+  style:            :compressed
 
 defaults:
   -
     scope:
-      path: ''
-      type: 'posts'
+      path:         ""
+      type:         "pages"
     values:
-        layout: 'post'
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
 
-# Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+gems:
+  - jekyll-paginate
