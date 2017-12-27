@@ -1,11 +1,11 @@
 name:               "TheFireRed"
-description:        ""
+description:        "A translator posting about everything not related to his translation career."
 
-url:                ""
+url:                "https://thefirered.github.com"
 author:             "TheFireRed"
-email:              "jhondoe@abc.com"
+email:              "none@ofthat.com"
 gravatar_hash:      ""
-twitter:            ""
+twitter:            "TheFireRed"
 email:              ""
 github:             ""
 pinterest:          ""
@@ -27,8 +27,8 @@ markdown:           kramdown
 nav:
   - name:           "About"
     href:           "/about"
-  - name:           "Download"
-    href:           "/releases"
+  - name:           ""
+    href:           ""
 
 sass:
   style:            :compressed
