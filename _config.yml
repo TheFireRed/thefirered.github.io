@@ -1,9 +1,8 @@
 name:               "TheFireRed"
-description:        "A translator posting about everything not related to his translation career."
+description:        "A translator's emotional garbage dump."
 
 url:                "https://thefirered.github.com"
 author:             "TheFireRed"
-email:              "none@ofthat.com"
 gravatar_hash:      ""
 twitter:            "TheFireRed"
 email:              ""
@@ -27,8 +26,7 @@ markdown:           kramdown
 nav:
   - name:           "About"
     href:           "/about"
-  - name:           ""
-    href:           ""
+
 
 sass:
   style:            :compressed
